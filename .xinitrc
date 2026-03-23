@@ -47,5 +47,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  done
  unset f
 fi
-exec xcompmgr  &
 exec i3
+exec setxkbmap -layout gb,np -option grp:alt_shift_toggle

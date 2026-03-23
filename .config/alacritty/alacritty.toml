@@ -1,6 +1,6 @@
 [colors.primary]
 
-background = "#29293d"
+background = "#262626"
 
 [colors.normal]
 red = "#ff0000"
@@ -8,6 +8,9 @@ green = "#00ff00"
 blue = "#0000ff"
 
 [window]
-opacity = 0.8
+opacity = 0.95
 blur = true
+padding = { x = 16, y = 16 }
 
+[font]
+size = 9

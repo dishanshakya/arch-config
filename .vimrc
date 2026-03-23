@@ -7,8 +7,8 @@ set switchbuf=useopen,usetab,newtab
 set tabstop=4
 set shiftwidth=4
 let g:nerdtree_tabs_autofind = 1
-let g:nerdtree_tabs_open_on_console_startup = 1
-let g:nerdtree_tabs_open_on_gui_startup = 1
+let g:nerdtree_tabs_open_on_console_startup = 0
+let g:nerdtree_tabs_open_on_gui_startup = 0
 
 call plug#begin('~/.vim/plugged')
 
@@ -40,3 +40,5 @@ nnoremap fh gT
 nnoremap fl gt
 
 nnoremap QQ :wqa<CR>
+nnoremap <Space><Space> :tabc<CR>
+
